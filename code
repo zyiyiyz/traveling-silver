@@ -1,0 +1,9 @@
+start=20000
+pills=1
+dishes=1
+travels=3*pills+dishes
+total=0
+for i in range(1,travels+1):
+    total+=start
+    start+=20000
+print(total)
